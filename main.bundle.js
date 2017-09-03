@@ -340,7 +340,7 @@ var LoginComponent = (function () {
             console.log(data);
             if (data['uid'] && data['refreshToken']) {
                 _this.storage.put('uid', data['uid']);
-                _this.router.navigateByUrl('home');
+                _this.router.navigateByUrl('firebase-chat/home');
             }
         }).catch(function (Error) { return console.log(Error); });
     };
