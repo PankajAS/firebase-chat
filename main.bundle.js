@@ -120,9 +120,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var appRoutes = [
-    { path: 'firbase-chat', pathMatch: 'full', redirectTo: 'firbase-chat/login' },
-    { path: 'firbase-chat/login', component: __WEBPACK_IMPORTED_MODULE_8__login_login_component__["a" /* LoginComponent */] },
-    { path: 'firbase-chat/home', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] }
+    { path: 'firebase-chat', pathMatch: 'full', redirectTo: 'firebase-chat/login' },
+    { path: 'firebase-chat/login', component: __WEBPACK_IMPORTED_MODULE_8__login_login_component__["a" /* LoginComponent */] },
+    { path: 'firebase-chat/home', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] }
 ];
 var AppModule = (function () {
     function AppModule() {
@@ -325,6 +325,13 @@ var LoginComponent = (function () {
     /* build app on git
     ng build --prod --base-href "https://USERNAME.github.io/REPOSITORY_NAME/"
     https://github.com/angular-buch/angular-cli-ghpages
+  
+    ng build
+  ng build --prod
+  npm install -g angular-cli-ghpages
+  gitinit
+  ng build --prod --base-href https://username.github.io/projectname
+  ngh
     */
     LoginComponent.prototype.login = function () {
         var _this = this;
